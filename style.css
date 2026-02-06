@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+        margin-top: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+
+}
+.nav-link{
+    margin-right: 20px;
+   }
+   a{
+    text-decoration: none;
+   }
+   .get-started{
+    background-color: rgb(247, 108, 108);
+    width: 110px;
+    height: 40px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+   }
+   .sec-one{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+ gap: 20px;
+   }
+   .text-one{
+justify-items: center;
+align-self: center;
+width:390px;
+   }
+   
