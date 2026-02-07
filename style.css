@@ -2,21 +2,25 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    margin-left: 200px;
-    margin-right: 200px;
         margin-top: 50px;
-}
+       font-family: sans-serif;
 header{
     display: flex;
     justify-content: space-between;
     height: 82px;
-
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.logo{
+     color: rgb(163, 166, 168);
+}
 }
 .nav-link{
-    margin-right: 20px;
+    margin-right: 40px;
    }
    a{
     text-decoration: none;
+    color:  rgb(144, 176, 198);
    }
    .get-started{
     background-color: rgb(247, 108, 108);
@@ -25,16 +29,87 @@ header{
     color: aliceblue;
     border: none;
     border-radius: 5px;
+   
+   }
+   button{
+     font-weight: bold;
+     cursor: pointer;
+   }
+   button:hover{
+    background-color: rgb(234, 233, 233);
+    color: rgb(247, 108, 108);
    }
    .sec-one{
     display: flex;
     justify-content: center;
     align-self: center;
- gap: 20px;
+    gap: 50px;
+     margin-left: 200px;
+    margin-right: 200px;
    }
    .text-one{
 justify-items: center;
 align-self: center;
 width:390px;
+ color: rgb(144, 176, 198);
    }
-   
+   .row{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+      }
+      .two-images{
+        display: flex;
+      }
+      .text-two{
+        align-self: center;
+        color: rgb(163, 166, 168);
+        width: 390px;
+      }
+      .sec-two{
+        background-color: rgb(249, 249, 249);
+      }
+      .hire-btn{
+         background-color: rgb(247, 108, 108);
+    width: 170px;
+    height: 40px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+      }
+      .sec-three{
+        display: flex;
+        background-color: rgb(5, 5, 65);
+        color: aliceblue;
+        gap: 50px;
+        height: 600px;
+            }
+      .last-image{
+         margin-left: 200px;
+          align-self: center;
+      }
+      .last-text{
+        width:400px;
+        align-self: center;
+      }
+      .create-btn{
+        background-color: rgb(247, 108, 108);
+    width: 160px;
+    height: 40px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+      }
+      p{
+        color:  rgb(144, 176, 198);
+      }
+      footer{
+        display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 20px;
+               margin-left: 200px;
+    margin-right: 200px;
+font-size: larger;
+height: 80px;
+      }
