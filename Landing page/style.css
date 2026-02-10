@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: larger;
+}
+:root{
+    --global-margin-left:70px;
+     --global-margin-right:70px;
+}
+header{
+    display: flex;
+    margin-left:70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    margin-right: 50px;
+}
+.nav-link:hover{
+    color: rgb(141, 140, 140);
+}
+.first-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 90px;
+    height: 50px;
+   font-size: large;
+}
+.first-section{
+   margin-left: var(--global-margin-left);
+   margin-right: var(--global-margin-right);
+   font-size: xx-large;
+}
+.first-img{
+    margin-top: 80px;
+    width: 1370px;
+    border-radius: 3px;
+    
+}
+.second-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 130px;
+    height: 70px;
+   font-size: x-large;
+  margin-top: 10px;
+}
+.second-section{
+    margin-left: var(--global-margin-left);
+    margin-right: var(--global-margin-right);
+    display: flex;
+   justify-content: space-between;
+    margin-top: 100px;
+}
+.sub-img{
+    width: 400px;
+    border-radius: 3px;
+}
+.third-section{
+    margin-left: var(--global-margin-left);
+    margin-right: var(--global-margin-right);
+    display: flex;
+   justify-content: space-between;
+    margin-top: 100px;
+}
+.secondary-btn{
+    border: none;
+    background-color: rgb(193, 190, 190);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+   font-size: large;
+  margin-top: 10px;
+}
+.second-btn:hover, .first-btn:hover{
+    background-color: rgb(197, 194, 194);
+    color: rgb(0, 0, 0);
+}
+.secondary-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}   
+.text-section
+{
+    width: 400px;
+  }
+.fourth-section-row{
+        margin-left: var(--global-margin-left);
+    margin-right: var(--global-margin-right);
+    display: flex;
+   justify-content: space-between;
+    margin-top: 100px;
+
+}
+.fourth-section-row img{
+    width: 600px;
+    border-radius: 3px;
+}
