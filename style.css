@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+
+}
+ header{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+     margin-top: 50px;
+ }
+ .image-one{
+    height: 650px;
+ }
+.logo-name{
+        font-size: larger;
+    font-weight: bold;
+    align-items: center;
+}
+ a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+ }
+ p{
+    color: rgb(166, 167, 168);
+ }
+ .btn{
+    border: none;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    width: 100px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: larger;
+ }
+ .sec-one{
+    display: flex;
+    gap: 150px;
+ }
+ a:hover{
+   color: rgb(144, 144, 144);
+ }
+ .add-btn{
+    border: none;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: larger;
+ }
+ button:hover{
+background-color: rgb(226, 226, 226) ;
+color: black;
+ }
+
+ .text-sec-one{
+    font-size: larger;
+ }
+.sec-two-row-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sec-two{
+   margin-top: 50px;
+}
+.product-img{
+    width: 400px;
+    border-radius: 8px;
+}
+.sec-two-row-two{
+      display: flex;
+      justify-content: space-between;
+}
+hr{
+   margin-top: 150px;
+}
+footer{
+   margin-top: 50px;
+}
